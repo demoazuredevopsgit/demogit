@@ -22,6 +22,7 @@ namespace demogit
             ShowWorkItemDetails(connection, workItemId).Wait();
 
             Console.WriteLine("1er commit");
+            Console.WriteLine("2do commit");
         }
 
         static private async Task ShowWorkItemDetails(VssConnection connection, int workItemId)
