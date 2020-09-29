@@ -20,6 +20,8 @@ namespace demogit
 
             // Show details a work item
             ShowWorkItemDetails(connection, workItemId).Wait();
+
+            Console.WriteLine("1er commit");
         }
 
         static private async Task ShowWorkItemDetails(VssConnection connection, int workItemId)
